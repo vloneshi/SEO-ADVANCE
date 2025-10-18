@@ -9,18 +9,14 @@ const Header = () => {
       <div className="max-w-7xl mx-auto lg:px-6 md:px-3">
         <div className="my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-0 xl:mt-28 flex gap-10 lg:flex-justify lg:flex flex-col lg:flex-row flex-col-reverse">
           <div className="text-center lg:text-left flex flex-col justify-center">
-            <h1 className="text-black text-4xl font-semibold opacity-70">
-              MY NAME IS HOLO
-            </h1>
             <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-              Hi there!
+              Belia.Twelve
             </h2>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              I'm a streamlined, lightweight theme starter kit crafted on
-              Gatsby. My design marries minimalist elegance with contemporary
-              flair, offering an unparalleled aesthetic experience for the
-              modern web.
+              Belia.twelve adalah destinasi aksesoris pilihan yang mengedepankan sentuhan tangan.
+              Setiap kreasi kami, mulai dari gelang, jam tangan, keychain, hingga koleksi boneka
+              crochet yang berkarakter adalah hasil dedikasi pada detail dan kualitas.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
