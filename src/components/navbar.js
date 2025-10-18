@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="w-full justify-between flex items-center">
             
-              <span className="text-[#ffbbcb] font-semibold">
+              <span className="text-black text-gradient bg-gradient-to-r from-pink to-purple font-semibold">
                 BELIA.TWELVE
               </span>
             
