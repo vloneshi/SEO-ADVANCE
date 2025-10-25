@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 
-import logo from "../images/3D-liquid-abstract-5.webp"
+import logo from "../images/Footer 3.png"
 
 const Footer = () => {
   return (
@@ -12,10 +12,9 @@ const Footer = () => {
             <div>
               <img className="max-h-28 max-w-xs" src={logo} alt="Holo"></img>
               <p className="text-black opacity-70 text-sm mt-5 ">
-                A stunning and minimal<br></br> personalized website starter
-                theme
+                Belia.Twelve.<br></br> Your daily dose of happy.
                 <br></br>
-                built with Gatsby.
+                Cocok untuk gaya aesthetic harianmu.
               </p>
               <p className="text-white text-lg font-bold mt-20">
                 <span className="text-black font-montserrat font-semibold mt-20">
@@ -25,7 +24,7 @@ const Footer = () => {
               <div className="text-black font-bold block-inline">
                 <p>
                   <a className="text-black font-bold block-inline" href="/">
-                    Holo
+                    Belia.Twelve
                   </a>
 
                   <a
@@ -33,24 +32,24 @@ const Footer = () => {
                     target="_blank"
                     href="https://travislord.xyz"
                   >
-                    By TL
-                  </a>
+                    By Nat
+                  {/* </a>
                   <a
-                    href="https://github.com/lilxyzz/holo-theme"
+                    href="https://instagram.com/belia.twelve"
                     target="_blank"
-                  >
-                    <img
+                  > */}
+                    {/* <img
                       className="w-5 h-5 mt-1"
-                      src="/img/Github-Logo.png"
-                      alt="GitHub"
-                    ></img>
+                      src="../images/Instagram.png"
+                      alt="Instagram"
+                    ></img> */}
                   </a>
                 </p>
               </div>
             </div>
 
             <div className="place-self-end self-center xxs:hidden lg:block">
-              <ul className="text-xl font-montserrat font-medium">
+              <ul className="text-3xl font-montserrat font-semibold">
                 <li>
                   <Link to="/">Home</Link>
                 </li>
@@ -58,11 +57,8 @@ const Footer = () => {
                   <Link to="/about">About</Link>
                 </li>
                 <li>
-                  <Link to="/gallery">Gallery</Link>
+                  <Link to="/gallery">Product</Link>
                 </li>{" "}
-                <li>
-                  <Link to="/blog">Blog</Link>
-                </li>
                 <li>
                   <Link to="/contact">Contact</Link>
                 </li>

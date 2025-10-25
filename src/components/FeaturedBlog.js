@@ -14,16 +14,17 @@ const FeaturedBlog = () => {
           </h3>
           <div className="blog-hover bg-gradient-to-r from-pink to-purple border mt-10 border-gray-200 rounded-lg p-8 md:p-12 mb-8">
             <h2 className="text-black text-3xl font-simibold mb-2">
-              Lorem ipsum is simply dummy text
+              Di Balik Manik & Benang: Kisah Setiap Kreasi Handmade
             </h2>
             <p className="text-lg  text-black opacity-60 mb-6">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Ingin tahu kenapa aksesoris Belia.Twelve terasa begitu personal dan unik?
+              Kami ajak kamu mengintip langsung proses penuh ketekunan dan perhatian di 
+              balik layar kreasi kami. Mulai dari pemilihan benang crochet berwarna ceria 
+              dan manik-manik berkarakter, hingga tahap akhir yang memberikan jiwa pada setiap piece.
+              Ini adalah bukti bahwa setiap karya dibuat dengan hati, khusus untuk menghadirkan kebahagiaan seumur hidup.
             </p>
             <a
-              href="/blog/blog-post"
+              href="/about/"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-purple  hover:bg-purple"
             >
               Continue Reading
@@ -47,19 +48,20 @@ const FeaturedBlog = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Lorem ipsum is simply dummy text
+                CUSTOM BEADS: Rangkai Gayamu Sendiri Fwends
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Temukan statement pieces yang benar-benar mewakili dirimu.
+                Koleksi jam tangan, gelang, dan item esensial yang harus dimiliki 
+                para pecinta aesthetic ceria. Pilih sendiri manik, charm, hingga 
+                nama yang akan dirangkai.Semua dibuat satu per satu memastikan 
+                setiap piece yang kamu kenakan secerah dan seunik senyummu!
               </p>
               <a
-                href="/blog/blog-post-1"
+                href="/gallery/"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
               >
-                Continue Reading
+                Start Customizing
                 <svg
                   className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                   aria-hidden="true"
@@ -79,19 +81,20 @@ const FeaturedBlog = () => {
             </div>
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Lorem ipsum is simply dummy text
+                YOUR NEW BESTIE: Boneka Crochet & Bag Charm
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Sambut soulmate aksesorismu! Setiap bestie rajutan dibuat satu 
+                per satu dengan penuh perhatian, menjamin karakter unik yang tidak 
+                akan kamu temukan di mana pun. Mereka multifungsi: sempurna untuk 
+                keychain, bag charm, atau dekorasi yang seketika upgrade look kamu. 
+                Dapatkan piece otentik yang dirajut dengan happy vibes!
               </p>
               <a
-                href="/blog/blog-post-2"
+                href="/gallery/"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
               >
-                Continue Reading
+                Shop Crochet Friends
                 <svg
                   className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                   aria-hidden="true"
