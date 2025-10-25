@@ -3,9 +3,9 @@ import Fade from "react-reveal/Fade"
 
 // Assets
 import HeroImage from "../../images/sunny1.jpg.png"
-import Image1 from "../../images/3D-liquid-abstract-1.webp"
-import Image2 from "../../images/3D-liquid-abstract.webp"
-import Image3 from "../../images/3D-liquid-abstract-3.webp"
+import Image1 from "../../images/bracelet_watch.black.jpg"
+import Image2 from "../../images/bracelet_watch.colorful.jpg"
+import Image3 from "../../images/bracelet_watch.pink.jpg"
 
 const FeatureSection = () => {
   return (
@@ -136,41 +136,38 @@ const FeatureSection = () => {
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          OPEN SOURCE
+          THE CRAFT
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          A React based framework
+          Authenticity Over Assembly
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Tangan yang Merajut. Hati yang Mencipta. Kami tidak sekadar merangkai aksesoris;
+          kami berinvestasi penuh dalam waktu, ketelitian, dan nilai setiap detik yang dihabiskan.
+          Proses adalah segalanya, karena masterpiece tidak bisa dibuat terburu-buru. Dari menyeleksi 
+          setiap manik berdasarkan kualitasnya, hingga menghitung setiap jahitan pada boneka crochet 
+          berkarakter, tidak ada satu pun detail yang terlewat. Kami percaya bahwa produk yang kamu 
+          kenakan harus membawa cerita dan kepribadian yang mendalam, sebuah cerminan dirimu, dan penuh 
+          makna yang layak jadi milikmu.
         </p>
       </div>
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          INTEGRATIONS
+          PERSONAL SYTLE
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Discover and connect
+          Designed to make you smile.
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Bosan dengan yang Seragam? Saatnya Main Warna dan Karakter! Koleksi kami
+          adalah playground aksesoris handmade yang playful, berkarakter. Gaya adalah 
+          tentang ekspresi diri yang jujur. Oleh karena itu, jelajahi harta 
+          karun kami: mulai dari gelang, jam tangan manik-manik, dan keychain lucu
+          yang dirancang untuk kamu mix and match tanpa batas. Setiap kepingan di sini siap
+          jadi statement piece atau teman setia yang akan menemani petualangan harianmu.
+          Ciptakan kombinasi yang sepenuhnya milikmu, dan rasakan mood ceria itu menular ke
+          setiap aktivitas. 
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
@@ -178,7 +175,7 @@ const FeatureSection = () => {
               href="/contact/"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
             >
-              Send Enquiry
+              Find Yours
             </a>
           </div>
         </div>
@@ -201,20 +198,20 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">v1.0.0</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">Released</h4>
+            <h3 className="text-black text-2xl">4.8/5.0 Stars</h3>
+            <h4 className="mt-10 text-black opacity-70 text-xl">Happy Customer Ratings</h4>
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Fork</h3>
+            <h3 className="text-white text-2xl">2500+</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">
-              PR's welcome
+              Handcrafted Pieces Sold
             </h4>
           </div>
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Stars</h3>
+            <h3 className="text-white text-2xl">100%</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">
-              Give support
+              Originality Guaranteed
             </h4>
           </div>
         </div>
