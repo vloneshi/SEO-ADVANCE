@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
   return (
-    <nav className="bg-transparent">
+    <nav className="fixed top-0 w-full bg-white shadow-sm border-b-4 border-pink z-50">
       <div className="max-w-7xl mx-auto px-3 py-5 rounded-md">
         <div className="flex items-center justify-between h-16">
           <div className="w-full justify-between flex items-center">

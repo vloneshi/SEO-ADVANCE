@@ -20,7 +20,7 @@ const WorkPage = () => {
         </div>
       </Fade> */}
 
-      <Fade bottom cascade>
+      {/* <Fade bottom cascade>
         <div className="mt-10  flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-black text-2xl">Performance</h3>
@@ -40,24 +40,22 @@ const WorkPage = () => {
             <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
           </div>
         </div>
-      </Fade>
+      </Fade> */}
 
       <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
+        {/* <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2> */}
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Time to lock new speeds
+          More Than Just Accessories
         </h3>
 
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Belia.Twelve adalah dedikasi pada nilai personal dan kualitas karya tangan 
+          yang sesungguhnya. Kami hadir bukan hanya sebagai toko, tetapi sebagai janji: 
+          bahwa setiap aksesoris yang kamu terima membawa cerita dan happy vibes yang tulus.
+          Kami menaruh waktu, ketelitian, dan perhatian penuh pada setiap detail, mulai dari 
+          pemilihan manik hingga rajutan. Memastikan semua produk dibuat satu per satu dengan standar terbaik.
+          Tujuan kami sangat sederhana: memberikanmu karya otentik yang membuatmu merasa spesial, meningkatkan 
+          rasa percaya diri, dan menambah mood ceria harianmu dengan piece yang benar-benar kamu cintai.
         </p>
       </div>
     </div>
