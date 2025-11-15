@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import Image3 from "../../images/holographic-background-1.webp"
+import Image3 from "../../images/coverabout.jpeg"
 
 const AboutHeader = () => {
   return (
@@ -14,9 +14,9 @@ const AboutHeader = () => {
           {/* <h1 className="font-bold text-xl text-black text-gradient bg-gradient-to-r from-pink to-purple">
             YOUR DAILY DOSE OF HAPPY
           </h1> */}
-          <h2 className="text-black text-6xl font-semibold leading-snug xxs:text-lg xs:text-lg sm:text-3xl lg:text-6xl">
+          {/* <h2 className="text-black text-6xl font-semibold leading-snug xxs:text-lg xs:text-lg sm:text-3xl lg:text-6xl">
             Statement Pieces That Are Truly Yours, and Handcrafted with Joy.
-          </h2>
+          </h2> */}
         </div>
       </div>
     </Fade>

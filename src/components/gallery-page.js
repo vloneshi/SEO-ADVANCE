@@ -6,14 +6,14 @@ import BackGroud from "../images/bracelet1.png"
 import BackGroud2 from "../images/bracelet_watch.colorful.jpg"
 import BackGroud3 from "../images/bracelet_watch.pink.jpg"
 import BackGroud4 from "../images/bracelet_watch.black.jpg"
-import BackGroud5 from "../images/bracelet1.png"
-import BackGroud6 from "../images/bracelet1.png"
-import BackGroud7 from "../images/froggy.png"
-import BackGroud8 from "../images/jellyfish.png"
-import BackGroud9 from "../images/sunny1.jpg.png"
-import BackGroud10 from "../images/bracelet1.png"
-import BackGroud11 from "../images/bracelet1.png"
-import BackGroud12 from "../images/bracelet1.png"
+import BackGroud5 from "../images/bracelet8.png"
+import BackGroud6 from "../images/bracelet7.png"
+import BackGroud7 from "../images/froggy1.png"
+import BackGroud8 from "../images/jellyfish1.png"
+import BackGroud9 from "../images/sunny2.png"
+import BackGroud10 from "../images/phone_strap31.png"
+import BackGroud11 from "../images/phone_strap21.png"
+import BackGroud12 from "../images/phone_strap4.png"
 
 const Gallery = () => {
   return (
@@ -21,16 +21,16 @@ const Gallery = () => {
       <Fade duration={2200}>
         <div className="flex flex-row justify-space xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row mb-5">
           <div className="max-h-80 w-1/2 flex flex-col justify-center bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-4 xxs:w-full xs:w-full sm:w-full lg:w-full">
-            <h1 className="text-black opacity-70 text-4xl font-semibold">
+            {/* <h1 className="text-black opacity-70 text-4xl font-semibold">
               GALLERY
+            </h1> */}
+            <h1 className="text-[#6A4B3E] text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
+              Explore Our Handcrafted Joy.
             </h1>
-            <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-              Holo Starter Theme
-            </h1>
-            <p className="text-lg mt-4 text-white opacity-70 xxs:text-sm sm:text-lg">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
+            <p className="text-lg mt-4 text-[#6A4B3E] opacity-70 xxs:text-sm sm:text-lg">
+              Jelajahi koleksi unik kami, dan temukan statement 
+              piece yang akan menjadi ekstensi dari kepribadianmu
+              membawa energi positif dan joy ke setiap look harianmu.
             </p>
           </div>
 
