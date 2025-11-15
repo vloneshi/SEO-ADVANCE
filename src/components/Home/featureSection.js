@@ -202,15 +202,15 @@ const FeatureSection = () => {
             <h4 className="mt-10 text-black opacity-70 text-xl">Happy Customer Ratings</h4>
           </div>
 
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">2500+</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">
+          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+            <h3 className="text-black text-2xl">2500+</h3>
+            <h4 className="mt-10 text-black opacity-70 text-xl">
               Handcrafted Pieces Sold
             </h4>
           </div>
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">100%</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">
+          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+            <h3 className="text-black text-2xl">100%</h3>
+            <h4 className="mt-10 text-black opacity-70 text-xl">
               Originality Guaranteed
             </h4>
           </div>

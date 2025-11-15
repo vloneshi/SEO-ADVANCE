@@ -1,14 +1,25 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import HeroImage from "../images/3D-liquid-abstract-2.webp"
-import BackGroud from "../images/holographic-background.webp"
+import HeroImage from "../images/cover1.png"
+import BackGroud from "../images/bracelet1.png"
+import BackGroud2 from "../images/bracelet_watch.colorful.jpg"
+import BackGroud3 from "../images/bracelet_watch.pink.jpg"
+import BackGroud4 from "../images/bracelet_watch.black.jpg"
+import BackGroud5 from "../images/bracelet1.png"
+import BackGroud6 from "../images/bracelet1.png"
+import BackGroud7 from "../images/froggy.png"
+import BackGroud8 from "../images/jellyfish.png"
+import BackGroud9 from "../images/sunny1.jpg.png"
+import BackGroud10 from "../images/bracelet1.png"
+import BackGroud11 from "../images/bracelet1.png"
+import BackGroud12 from "../images/bracelet1.png"
 
 const Gallery = () => {
   return (
     <div className="max-w-7xl mx-auto mt-10">
       <Fade duration={2200}>
-        <div className="flex flex-row justify-space xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row xxs:flex-col xs:flex-col sm:flex-row mb-5">
+        <div className="flex flex-row justify-space xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row mb-5">
           <div className="max-h-80 w-1/2 flex flex-col justify-center bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-4 xxs:w-full xs:w-full sm:w-full lg:w-full">
             <h1 className="text-black opacity-70 text-4xl font-semibold">
               GALLERY
@@ -19,126 +30,107 @@ const Gallery = () => {
             <p className="text-lg mt-4 text-white opacity-70 xxs:text-sm sm:text-lg">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              ever since the 1500s.
             </p>
           </div>
+
           <div className="rounded-xl w-auto h-full object-cover flex justify-center">
-            <img src={HeroImage} alt="HeroImage"></img>
+            <img src={HeroImage} alt="HeroImage" />
           </div>
         </div>
       </Fade>
 
+      {/* GALLERY GRID */}
       <div className="max-w-7xl mx-auto px-8 mt-5">
         <Fade bottom cascade>
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
-            <a
-              href="#"
-              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
-            >
-              <img
-                src={BackGroud}
-                loading="lazy"
-                alt="HeroImage"
-                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-              />
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6 xl:gap-8">
 
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+  {/* 1 */}
+  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img src={BackGroud} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Clean Animations</span>
+  </a>
 
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Clean Animations
-              </span>
-            </a>
+  {/* 2 */}
+  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img src={BackGroud2} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Easy to use</span>
+  </a>
 
-            <a
-              href="#"
-              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
-            >
-              <img
-                src={BackGroud}
-                loading="lazy"
-                alt="HeroImage"
-                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-              />
+  {/* 3 */}
+  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img src={BackGroud3} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Responsive</span>
+  </a>
 
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+  {/* 4 */}
+  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img src={BackGroud4} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Tailwind CSS</span>
+  </a>
 
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Easy to use
-              </span>
-            </a>
+  {/* 5 */}
+  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img src={BackGroud5} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">CMS Ready</span>
+  </a>
 
-            <a
-              href="#"
-              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
-            >
-              <img
-                src={BackGroud}
-                loading="lazy"
-                alt="HeroImage"
-                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-              />
+  {/* 6 */}
+  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img src={BackGroud6} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Fast</span>
+  </a>
 
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+  {/* 7 — Tambahan */}
+  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img src={BackGroud7} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Modern UI</span>
+  </a>
 
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Responsive
-              </span>
-            </a>
+  {/* 8 — Tambahan */}
+  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img src={BackGroud8} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Smooth Motion</span>
+  </a>
 
-            <a
-              href="#"
-              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
-            >
-              <img
-                src={BackGroud}
-                loading="lazy"
-                alt="HeroImage"
-                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-              />
+  {/* 9 — Tambahan */}
+  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img src={BackGroud9} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Premium Assets</span>
+  </a>
 
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+  {/* 10 — Tambahan */}
+  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img src={BackGroud10} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Premium Assets</span>
+  </a>
 
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Tailwind CSS
-              </span>
-            </a>
-            <a
-              href="#"
-              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
-            >
-              <img
-                src={BackGroud}
-                loading="lazy"
-                alt="HeroImage"
-                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-              />
+  {/* 11 — Tambahan */}
+  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img src={BackGroud11} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Premium Assets</span>
+  </a>
 
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+  {/* 12 — Tambahan */}
+  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img src={BackGroud12} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
+    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Premium Assets</span>
+  </a>
 
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                CMS Ready
-              </span>
-            </a>
+</div>
 
-            <a
-              href="#"
-              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
-            >
-              <img
-                src={BackGroud}
-                loading="lazy"
-                alt="HeroImage"
-                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-              />
-
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Fast
-              </span>
-            </a>
-          </div>
         </Fade>
       </div>
     </div>
