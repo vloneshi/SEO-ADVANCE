@@ -5,22 +5,22 @@ import Button from "../components/Atoms/button"
 import Fade from "react-reveal/Fade"
 import Seo from "../components/seo"
 
-import image from "../images/holographic-background.webp"
+import image from "../images/covercontact.jpg"
 
 const Contact = () => {
   return (
     <Layout>
       <Seo
-        title="Contact - Holo"
+        title="Contact - BeliaTwelve"
         description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS"
       ></Seo>
 
-      <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
+      <div className="max-w-7xl mx-auto mt-10 flex text-[#6A4B3E] xxs:flex-col sm:flex-row">
         <Fade duration={1200}>
           <div className="bg-dp opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
-            <h1 className="text-3xl text-black">CONTACT HOLO</h1>
-            <h2 className=" text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
-              Gatsby Theme
+            {/* <h1 className="text-3xl text-black">CONTACT BELIATWELVE</h1> */}
+            <h2 className="  text-[#6A4B3E] text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
+              Contact BeliaTwelve
             </h2>
             <p className="text-lg mt-2 opacity-70 w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
               A stunning and minimal personalized website starter theme.
@@ -52,8 +52,8 @@ const Contact = () => {
                       <p className="mb-2 font-bold underline decoration-pink">
                         Phone
                       </p>
-                      <p className="text-neutral-500 mb-2">
-                        <a href="tel:+#">(08) 9000 000</a>
+                      <p className="text-[#6A4B3E] mb-2">
+                        <a href="tel:+#" className="text-[#6A4B3E]">(+62)838-0612-1995</a>
                       </p>
                     </div>
                   </div>
@@ -82,9 +82,9 @@ const Contact = () => {
                       <p className="mb-2 font-bold underline decoration-pink">
                         Email
                       </p>
-                      <p className="text-neutral-500 mb-2">
-                        <a href="mailto:hello@holo.com?subject=Contact Holo for help.">
-                          hello@holo.com
+                      <p className="text-[#6A4B3E] mb-2">
+                        <a href="mailto:hello@holo.com?subject=Contact Holo for help." className="text-[#6A4B3E]">
+                          belia@twelve.com
                         </a>
                       </p>
                     </div>
@@ -114,7 +114,7 @@ const Contact = () => {
                       <p className="mb-2 font-bold underline decoration-pink">
                         Location
                       </p>
-                      <p className="text-neutral-500 mb-2">Worldwide</p>
+                      <p className="text-neutral-500 mb-2">Bandung</p>
                     </div>
                   </div>
                 </div>

@@ -1,27 +1,23 @@
 ---
 templateKey: blog-post
-title: Lorem Ipsum Is Simply Dummy Text
-date: 2024-03-30T15:02:06.069Z
-featuredimage: /img/Holographic-Liquid-3.jpg
+title: Belia’s Little Touches
+date: 2025-11-08T15:02:06.069Z
+featuredimage: /img/beliatwelve.jpg
 categories:
   - blog
 tags:
   - blog
-description: Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry's standard dummy text ever since
-  the 1500s, when an unknown printer took a galley of type and scrambled it to
-  make a type specimen book.
+description: Ada beberapa bentuk dan warna yang selalu bikin kami balik lagi. Bukan karena trend, tapi karena rasanya kayak “ini banget Belia.Twelve.” Dari kombinasi warna lembut sampai motif kecil yang comforting, elemen-elemen ini jadi signature yang selalu kami bawa di setiap kreasi.
 ---
-## Lorem Ipsum 
+## Little Things We Keep Coming Back To
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Ada beberapa elemen kecil yang selalu bikin kami jatuh cinta berulang kali. Warna-warna lembut yang terasa familiar, bentuk mungil yang cozy, dan detail manis yang langsung mengingatkan kami pada ciri khas Belia.Twelve. Meskipun kami terus bereksperimen dengan kreasi baru, signature kecil ini tetap jadi pijakan yang bikin setiap piece terasa dekat, hangat, dan penuh karakter. Seolah-olah setiap sentuhan kecil membawa pulang cerita lama yang nggak pernah bosan kami ulang.
 
-## Simply Dummy Text
+## Warm Notes in Every Piece
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Dalam setiap desain, ada pola dan kombinasi favorit yang selalu muncul kembali. Bukan karena kami kehabisan ide, tapi karena elemen-elemen ini terasa seperti rumah nyaman, personal, dan apa adanya. Warna pastel, bentuk bulat yang lembut, atau detail mini yang nyaris tersembunyi, masing-masing punya daya tarik yang nggak pernah pudar. Dan mungkin itulah kenapa banyak dari kamu bilang kreasi kami terasa “familiar in a good way.”
 
 
+## The Comfort of Familiar Details
 
-## Typesetting
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Di tengah eksplorasi creative process kami, ada momen-momen ketika kami kembali pada detail kecil yang sudah lama kami sayangi. Detail yang mungkin terlihat sederhana, tapi diam-diam membawa warmth khusus ketika dipadukan dengan warna atau bentuk baru. Di sanalah kami menemukan keseimbangan: antara sesuatu yang fresh dan sesuatu yang tetap terasa Belia.Twelve. It’s our little comfort zone dan kami senang bisa berbagi rasa itu di setiap kreasi yang kamu pilih.

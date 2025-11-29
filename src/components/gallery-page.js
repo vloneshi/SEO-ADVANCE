@@ -17,7 +17,7 @@ import BackGroud12 from "../images/phone_strap4.png"
 
 const Gallery = () => {
   return (
-    <div className="max-w-7xl mx-auto mt-10">
+    <div className="max-w-7xl mx-auto mt-10 relative">
       <Fade duration={2200}>
         <div className="flex flex-row justify-space xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row mb-5">
           <div className="max-h-80 w-1/2 flex flex-col justify-center bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-4 xxs:w-full xs:w-full sm:w-full lg:w-full">
@@ -45,91 +45,104 @@ const Gallery = () => {
         <Fade bottom cascade>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6 xl:gap-8">
 
-  {/* 1 */}
-  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
-    <img src={BackGroud} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
-    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Clean Animations</span>
-  </a>
+  {/* Item 1 */}
+  <div className="relative overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img
+      src={BackGroud}
+      className="absolute inset-0 w-full h-full object-cover transition duration-300 hover:scale-110"
+    />
+  </div>
 
-  {/* 2 */}
-  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
-    <img src={BackGroud2} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
-    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Easy to use</span>
-  </a>
+  {/* Item 2 */}
+  <div className="relative overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img
+      src={BackGroud2}
+      className="absolute inset-0 w-full h-full object-cover transition duration-300 hover:scale-110"
+    />
+  </div>
 
-  {/* 3 */}
-  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
-    <img src={BackGroud3} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
-    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Responsive</span>
-  </a>
+  {/* Item 3 */}
+  <div className="relative overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img
+      src={BackGroud3}
+      className="absolute inset-0 w-full h-full object-cover transition duration-300 hover:scale-110"
+    />
+  </div>
 
-  {/* 4 */}
-  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
-    <img src={BackGroud4} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
-    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Tailwind CSS</span>
-  </a>
+  {/* Item 4 */}
+  <div className="relative overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img
+      src={BackGroud4}
+      className="absolute inset-0 w-full h-full object-cover transition duration-300 hover:scale-110"
+    />
+  </div>
 
-  {/* 5 */}
-  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
-    <img src={BackGroud5} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
-    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">CMS Ready</span>
-  </a>
+  {/* Item 5 */}
+  <div className="relative overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img
+      src={BackGroud5}
+      className="absolute inset-0 w-full h-full object-cover transition duration-300 hover:scale-110"
+    />
+  </div>
 
-  {/* 6 */}
-  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
-    <img src={BackGroud6} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
-    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Fast</span>
-  </a>
+  {/* Item 6 */}
+  <div className="relative overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img
+      src={BackGroud6}
+      className="absolute inset-0 w-full h-full object-cover transition duration-300 hover:scale-110"
+    />
+  </div>
 
-  {/* 7 — Tambahan */}
-  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
-    <img src={BackGroud7} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
-    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Modern UI</span>
-  </a>
+  {/* Item 7 */}
+  <div className="relative overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img
+      src={BackGroud7}
+      className="absolute inset-0 w-full h-full object-cover transition duration-300 hover:scale-110"
+    />
+  </div>
 
-  {/* 8 — Tambahan */}
-  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
-    <img src={BackGroud8} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
-    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Smooth Motion</span>
-  </a>
+  {/* Item 8 */}
+  <div className="relative overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img
+      src={BackGroud8}
+      className="absolute inset-0 w-full h-full object-cover transition duration-300 hover:scale-110"
+    />
+  </div>
 
-  {/* 9 — Tambahan */}
-  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
-    <img src={BackGroud9} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
-    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Premium Assets</span>
-  </a>
+  {/* Item 9 */}
+  <div className="relative overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img
+      src={BackGroud9}
+      className="absolute inset-0 w-full h-full object-cover transition duration-300 hover:scale-110"
+    />
+  </div>
 
-  {/* 10 — Tambahan */}
-  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
-    <img src={BackGroud10} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
-    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Premium Assets</span>
-  </a>
+  {/* Item 10 */}
+  <div className="relative overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img
+      src={BackGroud10}
+      className="absolute inset-0 w-full h-full object-cover transition duration-300 hover:scale-110"
+    />
+  </div>
 
-  {/* 11 — Tambahan */}
-  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
-    <img src={BackGroud11} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
-    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Premium Assets</span>
-  </a>
+  {/* Item 11 */}
+  <div className="relative overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img
+      src={BackGroud11}
+      className="absolute inset-0 w-full h-full object-cover transition duration-300 hover:scale-110"
+    />
+  </div>
 
-  {/* 12 — Tambahan */}
-  <a href="#" className="group relative flex items-end overflow-hidden rounded-lg bg-gray-100 aspect-square">
-    <img src={BackGroud12} className="absolute inset-0 w-full h-full object-cover transition duration-200 group-hover:scale-110"/>
-    <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-    <span className="relative ml-4 mb-3 text-sm text-white md:text-lg">Premium Assets</span>
-  </a>
+  {/* Item 12 */}
+  <div className="relative overflow-hidden rounded-lg bg-gray-100 aspect-square">
+    <img
+      src={BackGroud12}
+      className="absolute inset-0 w-full h-full object-cover transition duration-300 hover:scale-110"
+    />
+  </div>
 
 </div>
+
 
         </Fade>
       </div>
@@ -158,5 +171,5 @@ export default Gallery
         <img src="https://source.unsplash.com/DFt3T5r_4FE"/>
         <img src="https://source.unsplash.com/Ebwp2-6BG8E"/>
             </div>
-             <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+            <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
 */
