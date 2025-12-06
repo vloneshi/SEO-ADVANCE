@@ -12,24 +12,37 @@ const StyledDiv = styled.div`
     font-size: 2rem;
     font-weight: 700;
     line-height: 1.5;
+    color: #6A4B3E;
   }
   & h2 {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 2.2;
+    color: #6A4B3E;
   }
   & h3 {
     font-size: 1.2rem;
     font-weight: 600;
     line-height: 2;
+    color: #6A4B3E;
   }
   & h4 {
     font-size: 1.1rem;
     font-weight: 600;
     line-height: 2;
+    color: #6A4B3E;
+  }
+  & p {
+    color: #6A4B3E;
+  }
+  & li {
+    color: #6A4B3E;
+  }
+  & strong {
+    color: #6A4B3E;
   }
   & a {
-    color: #6b46c1;
+    color: #6A4B3E !important;
   }
 `
 const BlogPost = props => {
@@ -50,7 +63,7 @@ const BlogPost = props => {
     : false
 
   const post = props.data.markdownRemark
-  let date = new Date(post.frontmatter.date) // assuming post.frontmatter.date is in ISO string format
+  let date = new Date(post.frontmatter.date)
   let options = { year: "numeric", month: "short", day: "numeric" }
   let formattedDate = date.toLocaleDateString("en-US", options)
   let titlaDate = date.toLocaleDateString("en-US", {
@@ -58,8 +71,7 @@ const BlogPost = props => {
     month: "long",
     day: "numeric",
   })
-
-  let isoDate = date.toISOString().split("T")[0] // get the date part of the ISO string
+  let isoDate = date.toISOString().split("T")[0]
 
   return (
     <Layout>
@@ -70,11 +82,13 @@ const BlogPost = props => {
       <main className="pt-8 pb-16 lg:pt-16 lg:pb-24">
         <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
           <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
+
             <header className="mb-4 lg:mb-6 not-format">
-              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-[#000000] lg:mb-6 lg:text-4xl dark:text-black">
+              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-[#6A4B3E] lg:mb-6 lg:text-4xl">
                 {post.frontmatter.title}
               </h1>
             </header>
+
             {post.frontmatter.featuredimage && (
               <div className="post-content-image">
                 <GatsbyImage
@@ -84,25 +98,27 @@ const BlogPost = props => {
                 />
               </div>
             )}
-            <p className="text-base text-gray-500 dark:text-gray-400 lg:mb-2">
+
+            <p className="text-base text-[#6A4B3E] lg:mb-2">
               <time dateTime={isoDate} title={titlaDate}>
                 {formattedDate}
               </time>
             </p>
 
             <StyledDiv
-              className="post-content-body text-[#000000]"
+              className="post-content-body"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
+
             <div className="flex items-center justify-between pt-8">
               <div>
                 <a
                   style={{
                     display: previousLinkStatus ? "flex" : "none",
                     alignItems: "center",
-                    color: "#131313",
+                    color: "#6A4B3E",
                   }}
-                  className="text-base	"
+                  className="text-base"
                   href={previousSlug}
                 >
                   <img src={LeftIcon} alt="LeftIcon" width={30} height={30} />
@@ -116,14 +132,15 @@ const BlogPost = props => {
                   </span>
                 </a>
               </div>
+
               <div>
                 <a
                   style={{
                     display: nextLinkStatus ? "flex" : "none",
                     alignItems: "center",
-                    color: "#131313",
+                    color: "#6A4B3E",
                   }}
-                  className="text-base	"
+                  className="text-base"
                   href={nextSlug}
                 >
                   <span>
@@ -138,6 +155,7 @@ const BlogPost = props => {
                 </a>
               </div>
             </div>
+
           </article>
         </div>
       </main>

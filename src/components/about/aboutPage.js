@@ -48,7 +48,7 @@ const WorkPage = () => {
           More Than Just Accessories
         </h3>
 
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+        <p className="text-[#6A4B3E] font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           Belia.Twelve adalah dedikasi pada nilai personal dan kualitas karya tangan 
           yang sesungguhnya. Kami hadir bukan hanya sebagai toko, tetapi sebagai janji: 
           bahwa setiap aksesoris yang kamu terima membawa cerita dan happy vibes yang tulus.

@@ -8,7 +8,7 @@ const AboutExtra = () => {
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           GET YOUR HAPPY DOSE
         </h3>
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+        <p className="text-[#6A4B3E] font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           Jangan biarkan look harianmu terasa flat atau membosankan. Tinggalkan aksesoris 
           yang seragam dan inilah saatnya kamu memberi upgrade pada happy vibes serta gaya 
           personalmu! Jelajahi koleksi handmade kami yang unik, dan temukan piece manik atau 
@@ -20,7 +20,7 @@ const AboutExtra = () => {
           <div className="rounded-md">
             <a
               href="/gallery/"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
+              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-[#6A4B3E] hover:text-[#6A4B3E] border border-purple  hover:bg-transparent md:text-lg md:px-10 "
             >
               SEE ALL COLLECTION
               <svg

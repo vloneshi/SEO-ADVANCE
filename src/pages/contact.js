@@ -193,7 +193,7 @@ const Contact = () => {
               </div>
               <label>
                 <textarea
-                  className="mt-5 w-full bg-bg bg-opacity-20 rounded-xl p-5 focus:outline-none focus:ring-2 focus:ring-purple focus:border-transparent"
+                  className="mt-5 w-full bg-bg bg-opacity-20 rounded-xl p-5 placeholder:text-[#6A4B3E] focus:outline-none focus:ring-2 focus:ring-purple focus:border-transparent"
                   rows="5"
                   placeholder="How can we help you?"
                   type="text"

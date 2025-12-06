@@ -13,7 +13,7 @@ const Header = () => {
               Belia.Twelve
             </h2>
 
-            <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+            <p className="mt-3 text-base text-[#6A4B3E] sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               Belia.twelve adalah destinasi aksesoris pilihan yang mengedepankan sentuhan tangan.
               Setiap kreasi kami, mulai dari gelang, jam tangan, keychain, hingga koleksi boneka
               crochet yang berkarakter adalah hasil dedikasi pada detail dan kualitas.
@@ -23,7 +23,7 @@ const Header = () => {
               <div className="rounded-md">
                 <a
                   href="/contact"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-[#6A4B3E] font-medium rounded-md text-center bg-purple text-[#6A4B3E] hover:text-[#6A4B3E] border border-purple  hover:bg-transparent md:text-lg md:px-10 "
                 >
                   Contact Us
                   <svg
@@ -46,7 +46,7 @@ const Header = () => {
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="/about"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-[#6A4B3E] font-medium rounded-md text-[#6A4B3E] hover:text-[#6A4B3E] bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                 >
                   Get To Know Us
                 </a>

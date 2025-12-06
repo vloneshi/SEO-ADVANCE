@@ -47,7 +47,7 @@ const FeatureSection = () => {
               The Art of Handcrafted
             </h3>
 
-            <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
+            <p className="mt-3 text-base text-[#6A4B3E] sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
               Di sini, setiap kreasinya dibuat dengan hati. Mulai dari gelang, keychain, sampai
               boneka rajut, semua dirangkai untuk menyebarkan aura happy. Siap-siap gaya kamu
               kamu bakal beda dari yang lain!
@@ -57,7 +57,7 @@ const FeatureSection = () => {
               <div className="rounded-md">
                 <a
                   href="tel:#"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-[#6A4B3E] hover:text-[#6A4B3E] border border-purple hover:bg-transparent md:text-lg md:px-10"
                 >
                   Call Us Now
                 </a>
@@ -65,7 +65,7 @@ const FeatureSection = () => {
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="/gallery"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-[#6A4B3E] hover:text-[#6A4B3E] bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                 >
                   View Gallery
                   <svg
@@ -135,13 +135,13 @@ const FeatureSection = () => {
       </Fade> */}
 
       <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold opacity-70">
+        {/* <h2 className="text-black text-4xl font-semibold opacity-70">
           THE CRAFT
-        </h2>
+        </h2> */}
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           Authenticity Over Assembly
         </h3>
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+        <p className="text-[#6A4B3E] font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           Tangan yang Merajut. Hati yang Mencipta. Kami tidak sekadar merangkai aksesoris;
           kami berinvestasi penuh dalam waktu, ketelitian, dan nilai setiap detik yang dihabiskan.
           Proses adalah segalanya, karena masterpiece tidak bisa dibuat terburu-buru. Dari menyeleksi 
@@ -153,13 +153,13 @@ const FeatureSection = () => {
       </div>
 
       <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold opacity-70">
+        {/* <h2 className="text-black text-4xl font-semibold opacity-70">
           PERSONAL SYTLE
-        </h2>
+        </h2> */}
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           Designed to make you smile.
         </h3>
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
+        <p className="text-[#6A4B3E]  font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           Bosan dengan yang Seragam? Saatnya Main Warna dan Karakter! Koleksi kami
           adalah playground aksesoris handmade yang playful, berkarakter. Gaya adalah 
           tentang ekspresi diri yang jujur. Oleh karena itu, jelajahi harta 
@@ -173,7 +173,7 @@ const FeatureSection = () => {
           <div className="rounded-md">
             <a
               href="/contact/"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
+              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-[#6A4B3E] hover:text-[#6A4B3E] border border-purple hover:bg-transparent md:text-lg md:px-10"
             >
               Find Yours
             </a>
@@ -198,19 +198,19 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">4.8/5.0 Stars</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">Happy Customer Ratings</h4>
+            <h3 className="text-[#6A4B3E] text-2xl">4.8/5.0 Stars</h3>
+            <h4 className="mt-10 text-[#6A4B3E] text-xl">Happy Customer Ratings</h4>
           </div>
 
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">2500+</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">
+            <h3 className="text-[#6A4B3E] text-2xl">2500+</h3>
+            <h4 className="mt-10 text-[#6A4B3E] text-xl">
               Handcrafted Pieces Sold
             </h4>
           </div>
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">100%</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">
+            <h3 className="text-[#6A4B3E] text-2xl">100%</h3>
+            <h4 className="mt-10 text-[#6A4B3E] text-xl">
               Originality Guaranteed
             </h4>
           </div>

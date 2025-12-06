@@ -20,4 +20,4 @@ Ada banyak bagian dari proses kreatif kami yang nggak pernah terlihat: playlist 
 
 ## Dreaming Up the Next Spark
 
-Setiap koleksi baru selalu dimulai dari sebuah “spark”—ide kecil yang bikin hati langsung hangat. Mungkin dari foto lama, warna musim tertentu, atau benda lucu yang kami lihat pas jalan sore. Dari situ kami mulai membangun konsep: nentuin nuansa, ngumpulin referensi, dan nyusun desain awal. Semuanya dirangkai perlahan sampai lahir gambaran lengkap tentang apa yang akan hadir berikutnya. Rasanya seperti bisik-bisik kecil dari masa depan koleksi kami dan kami nggak sabar buat kamu lihat hasil akhirnya.
+Setiap koleksi baru selalu dimulai dari sebuah “spark” ide kecil yang bikin hati langsung hangat. Mungkin dari foto lama, warna musim tertentu, atau benda lucu yang kami lihat pas jalan sore. Dari situ kami mulai membangun konsep: nentuin nuansa, ngumpulin referensi, dan nyusun desain awal. Semuanya dirangkai perlahan sampai lahir gambaran lengkap tentang apa yang akan hadir berikutnya. Rasanya seperti bisik-bisik kecil dari masa depan koleksi kami dan kami nggak sabar buat kamu lihat hasil akhirnya.

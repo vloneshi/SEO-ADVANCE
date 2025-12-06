@@ -1,6 +1,5 @@
 import React from "react"
 import Input from "../Atoms/input"
-import Button from "../Atoms/button"
 import Fade from "react-reveal/Fade"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
@@ -14,22 +13,19 @@ const BlogsContainer = ({ data }) => {
       slug: item.node.fields.slug,
     }
   })
-  console.log("Data ", data)
-  console.log("post", posts)
-  // const image = getImage(post.node.frontmatter.featuredimage)
 
   return (
-    <div className="max-w-7xl mx-auto mt-10 px-8 text-black">
+    <div className="max-w-7xl mx-auto mt-10 px-8 text-[#6A4B3E]">
       <Fade bottom cascade>
         <div className="grid grid-cols-3 gap-4 xxs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {posts.map((blog, i) => (
             <div key={i}>
-              <div className="overflow-hidden  rounded-xl xxs:w-full ">
+              <div className="overflow-hidden rounded-xl xxs:w-full ">
                 <Link
                   to={blog.slug}
                   style={{
                     textDecoration: "none",
-                    color: "black",
+                    color: "#6A4B3E",
                   }}
                 >
                   <GatsbyImage
@@ -39,42 +35,46 @@ const BlogsContainer = ({ data }) => {
                     layout="cover"
                     formats={["auto", "webp", "avif"]}
                     quality={100}
-                    // aspectRatio={16 / 9}
                     className="img"
                   />
                 </Link>
               </div>
+
               <div className="m-6">
                 <Link
                   to={blog.slug}
                   style={{
                     textDecoration: "none",
-                    color: "black",
+                    color: "#6A4B3E",
                   }}
                 >
-                  <h1 className="text-2xl font-simibold mt-2 mb-4">
+                  <h1 className="text-2xl font-medium mt-2 mb-4 text-[#6A4B3E]">
                     {blog.title}
                   </h1>
                 </Link>
 
-                <p className="text-sm opacity-50 mt-2">{blog.description}</p>
+                <p className="text-sm mt-2 opacity-70 text-[#6A4B3E]">
+                  {blog.description}
+                </p>
               </div>
             </div>
           ))}
         </div>
       </Fade>
+
       <div className="w-auto p-8 m-4 h-72 sm:h-96 xs:h-96 xxs:h-96 mt-10 bg-gradient-to-r from-pink to-purple rounded-xl flex flex-col items-center justify-center">
-        <h2 className=" text-3xl font-bold text-[#6A4B3E] text-center">
+        <h2 className="text-3xl font-bold text-[#6A4B3E] text-center">
           Cozy Handmade Vibe
         </h2>
-        <h3 className="text-lg mt-2 opacity-60 text-[#6A4B3E] text-center">
+        <h3 className="text-lg mt-2 text-[#6A4B3E] text-center">
           Join our newsletter and let the sweetest updates find you
         </h3>
-        <div className="text-[#6A4B3E] hover:text-[#6A4B3E] mt-10 flex flex-col items-center justify-center">
-          <Input placeholder="Enter your email"></Input>
+
+        <div className="text-[#6A4B3E] mt-10 flex flex-col items-center justify-center">
+          <Input placeholder="Enter your email" />
           <a
             href="#"
-            className="mt-4 transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-purple  hover:bg-purple"
+            className="mt-4 inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-[#6A4B3E] rounded-lg border border-purple hover:bg-purple transition-all"
           >
             Join The List
           </a>
