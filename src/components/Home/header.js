@@ -8,6 +8,8 @@ const Header = () => {
     <Fade duration={2200}>
       <div className="max-w-7xl mx-auto lg:px-6 md:px-3">
         <div className="my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-0 xl:mt-28 flex gap-10 lg:flex-justify lg:flex flex-col lg:flex-row flex-col-reverse">
+          
+          {/* Text */}
           <div className="text-center lg:text-left flex flex-col justify-center">
             <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
               Belia.Twelve
@@ -23,7 +25,7 @@ const Header = () => {
               <div className="rounded-md">
                 <a
                   href="/contact"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-[#6A4B3E] font-medium rounded-md text-center bg-purple text-[#6A4B3E] hover:text-[#6A4B3E] border border-purple  hover:bg-transparent md:text-lg md:px-10 "
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-[#6A4B3E] font-medium rounded-md text-center bg-purple hover:text-[#6A4B3E] border border-purple hover:bg-transparent md:text-lg md:px-10"
                 >
                   Contact Us
                   <svg
@@ -35,18 +37,19 @@ const Header = () => {
                   >
                     <path
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M1 5h12m0 0L9 1m4 4L9 9"
                     />
                   </svg>
                 </a>
               </div>
+
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="/about"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-[#6A4B3E] font-medium rounded-md text-[#6A4B3E] hover:text-[#6A4B3E] bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-[#6A4B3E] font-medium rounded-md hover:text-[#6A4B3E] bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                 >
                   Get To Know Us
                 </a>
@@ -54,13 +57,18 @@ const Header = () => {
             </div>
           </div>
 
+          {/* Image - LCP Optimized */}
           <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-4 flex lg:justify-end justify-center">
             <img
               className="rounded-xl w-auto h-full object-cover flex justify-center"
               src={hero}
-              alt=""
-            ></img>
+              alt="Belia Twelve Logo"
+              width="500"
+              height="500"
+              fetchpriority="high"
+            />
           </div>
+
         </div>
       </div>
     </Fade>
