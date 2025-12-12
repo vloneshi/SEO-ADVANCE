@@ -10,27 +10,6 @@ import Image3 from "../../images/bracelet_watch.pink.jpg"
 const FeatureSection = () => {
   return (
     <div className="max-w-7xl mx-auto">
-      {/* <Fade bottom cascade>
-        <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Performance</h3>
-            <h4 className="mt-10 text-black  opacity-70 text-xl">95+</h4>
-          </div>
-
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Accessibility</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Best Practices</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-          <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
-            <h3 className="text-white text-2xl">SEO</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-        </div>
-      </Fade> */}
 
       <div className="max-w-7xl mx-auto lg:px-8 md:px-3">
         <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
@@ -90,54 +69,7 @@ const FeatureSection = () => {
         </div>
       </div>
 
-      {/* <Fade bottom cascade>
-        <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
-          <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
-            <span className="text-black font-semibold font-montserrat text-4xl">
-              TECH STACK
-            </span>
-            <div className="mt-5">
-              <div>
-                <p className="text-black text-2xl">Gatsby 5+</p>
-                <p className="text-black opacity-50 text-sm">SSG and more...</p>
-              </div>
-              <div className="mt-5">
-                <p className="text-black text-2xl">React 18+</p>
-                <p className="text-black opacity-50 text-sm">Create more...</p>
-              </div>
-              <div className="mt-5">
-                <p className="text-black text-2xl">Tailwind CSS 3+</p>
-                <p className="text-black opacity-50 text-sm">
-                  A utility-first CSS
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
-            <h2 className="text-white text-4xl">
-              Start building amazing web experiences
-            </h2>
-            <p className="mt-10 text-white opacity-70">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
-            </p>
-          </div>
-        </div>
-      </Fade> */}
-
       <div className="mt-10 px-8">
-        {/* <h2 className="text-black text-4xl font-semibold opacity-70">
-          THE CRAFT
-        </h2> */}
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           Authenticity Over Assembly
         </h3>
@@ -153,9 +85,6 @@ const FeatureSection = () => {
       </div>
 
       <div className="mt-10 px-8">
-        {/* <h2 className="text-black text-4xl font-semibold opacity-70">
-          PERSONAL SYTLE
-        </h2> */}
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           Designed to make you smile.
         </h3>
@@ -181,16 +110,22 @@ const FeatureSection = () => {
         </div>
       </div>
 
+      {/* 🔥 Bagian ini yang aku perbaiki */}
       <Fade bottom cascade>
         <div className="grid grid-cols-3 mt-10 gap-4 xxs:grid-cols-1 lg:grid-cols-3 px-5">
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center">
-            <img alt="Image" src={Image1}></img>
+            <img 
+              alt="Image"
+              src="/static/bracelet_watch.black-88676d2709f6f4894ba55e728b126b36.jpg"
+            />
           </div>
+
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center">
-            <img alt="Image" src={Image2}></img>
+            <img alt="Image" src={Image2} />
           </div>
+
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 hidden lg:block ">
-            <img alt="Image" src={Image3}></img>
+            <img alt="Image" src={Image3} />
           </div>
         </div>
       </Fade>
@@ -208,6 +143,7 @@ const FeatureSection = () => {
               Handcrafted Pieces Sold
             </h4>
           </div>
+
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-[#6A4B3E] text-2xl">100%</h3>
             <h4 className="mt-10 text-[#6A4B3E] text-xl">
@@ -216,37 +152,7 @@ const FeatureSection = () => {
           </div>
         </div>
       </Fade>
-      {/* 
-      <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold text-gradient bg-gradient-to-r from-pink to-purple">
-          {" "}
-          Integrations
-        </h2>
-        <h3 className="text-black mt-5 font-bold text-6xl xxs:text-lg xs:text-xl sm:text-xl lg:text-6xl">
-          Discover, connect, and configure
-        </h3>
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-          <div className="rounded-md">
-            <a
-              href="/contact/"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-purple border border-purple hover:bg-transparent md:text-lg md:px-10"
-            >
-              Send Enquiry
-            </a>
-          </div>
-        </div>
-      </div> */}
+
     </div>
   )
 }
