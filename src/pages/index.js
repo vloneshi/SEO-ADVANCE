@@ -12,8 +12,8 @@ const IndexPage = () => (
   <div className="h-auto w-screen">
     <Layout>
       <Seo
-        title="Holo - Gatsby Theme"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS."
+        title="Belia.Twelve - Handmade Accessories"
+        description="Belia.twelve adalah destinasi aksesoris handmade pilihan, menghadirkan gelang, jam tangan, keychain, serta berbagai kreasi rajut seperti crochet dengan sentuhan detail dan kualitas terbaik."
       ></Seo>
       <Header></Header>
       <FeatureSection></FeatureSection>

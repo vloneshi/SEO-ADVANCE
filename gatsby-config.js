@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Holo - Gatsby Starter`,
-    description: `Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS`,
-    siteUrl: "https://holo-theme.netlify.app/",
-    author: `Travis Lord <hi@travislord.xyz>`,
+    title: `Crochet Creations`,
+    description: `Belia.twelve adalah brand aksesoris handmade yang mengedepankan proses, ketelitian, dan makna di setiap detail. Dari gelang, jam tangan, keychain, hingga produk rajut dan crochet unik, setiap karya dibuat dengan sentuhan tangan dan cerita yang personal.`,
+    siteUrl: "https://beliatwelve.store//",
+    author: `Yoshi Nathania`,
+    keywords:"Belia.twelve, aksesoris handmade, aksesoris rajut, aksesoris crochet, gelang handmade, jam tangan handmade, keychain handmade, produk rajut handmade, tas rajut, crochet handmade, handmade accessories Indonesia"
   },
   plugins: [
     `gatsby-plugin-image`,
