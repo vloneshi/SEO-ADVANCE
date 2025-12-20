@@ -80,13 +80,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Holo - Gatsby Starter Theme`,
-        short_name: `Holo`,
+        name: `Belia.Twelve - Handmade Accessories`,
+        short_name: `Belia.Twelve`,
         start_url: `/`,
         background_color: `#ebebfa`,
         theme_color: `#ebebfa`,
         display: `standalone`,
-        icon: `src/images/3D-liquid-abstract-5.webp`, // This path is relative to the root of the site.
+        icon: `src/images/icon.bebel.png`, // This path is relative to the root of the site.
       },
     },
     {
