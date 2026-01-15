@@ -113,6 +113,29 @@ const FeaturedBlog = () => {
               </a>
             </div>
           </div>
+          {/* ===== GOOGLE MAPS (DITAMBAH DOANG) ===== */}
+          <div className="mt-24 px-4">
+            <h3 className="text-black text-4xl font-bold mb-6 text-gradient bg-gradient-to-r from-pink to-purple">
+              Find Us in Bandung
+            </h3>
+
+            <div className="w-full h-[380px] rounded-2xl overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.888087243045!2d107.5610564!3d-7.0224392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68ec13ce698bf7%3A0xdcb8621ed1037199!2sJl.%20Junti%20Girang%2C%20Kabupaten%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1768485565598!5m2!1sid!2sid"
+                className="w-full h-full"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Belia Twelve Location"
+              />
+            </div>
+
+            <p className="text-[#6A4B3E] mt-4 text-sm">
+              Jl. Junti Girang, Kabupaten Bandung — Handmade & Crochet Accessories
+            </p>
+          </div>
+          {/* ===== END MAP ===== */}
         </div>
       </div>
     </Fade>
